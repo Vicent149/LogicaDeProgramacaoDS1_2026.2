@@ -10,3 +10,11 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+valor = float(input("insira o valor: "))
+taxa = float(valor * 0.1)
+conta = float(valor + taxa)
+
+print(f"O valor final da conta foi {conta:.2f}")
+
+
