@@ -21,3 +21,7 @@ SUA MISSÃO:
 #     taxa = faturamento * 0.15
 
 # TODO: Escreva aqui a versão corrigida:
+
+faturamento = float(input("Informe o atual faturamento: "))
+if faturamento > 0:
+    

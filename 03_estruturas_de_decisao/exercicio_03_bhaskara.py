@@ -9,3 +9,12 @@ Leia 3 valores de ponto flutuante (A, B e C) de uma equação do 2º grau.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+a = int(input("Insira valor de A: "))
+b = int(input("Insira valor de B: "))
+c = int(input("Insira o valor de C: "))
+delta = int(b ** 2 - 4 * a * c)
+x1 = int(- b + ())
+
+if a and delta < 0:
+    print("Essa operação não pode ser realizada")
