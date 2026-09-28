@@ -24,4 +24,4 @@ x2 = (-b - (raiz)) / 2 * a
 if a and delta < 0:
     print("Essa operação não pode ser realizada")
 else:
-    print(f"As raizes da operação são: {x1} e {x2}")
+    print(f"As raizes da operação são: {x1:.5f} e {x2:.5f}")
