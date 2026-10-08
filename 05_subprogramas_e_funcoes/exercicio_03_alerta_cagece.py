@@ -9,3 +9,10 @@ que imprima a mensagem:
 """
 
 # TODO: Desenvolva o procedimento abaixo:
+def mensagem (nome,valor,venc):
+    print(f"Prezado {nome}, a sua fatura esta no valor de {valor} R$, vencera no dia {venc}")
+    return mensagem
+pessoa = input("Insira o nome")
+valorf = input("Insira o valor")
+venci = input("Insira a data de vencimeto")
+mensagem(pessoa,valorf,venci)

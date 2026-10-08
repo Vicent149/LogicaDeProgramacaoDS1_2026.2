@@ -12,3 +12,7 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva as funções modulares abaixo:
+
+def precofinal (base,desc,imp):
+    precofinal = base - base * desc + base * imp
+    return precofinal

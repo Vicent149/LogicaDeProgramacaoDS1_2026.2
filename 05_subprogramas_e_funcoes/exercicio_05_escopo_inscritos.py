@@ -9,3 +9,10 @@ para atualizar a variável. Demonstre o valor de total_inscritos antes e depois 
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+totalinscritos = int(0)
+def inaluno(inscritos):
+    print(f"O numero inicial de alunos inscritos são: {totalinscritos}")
+    print(f"O numero final de alunos inscritos são {inscritos}")
+
+alunos = int(input("Insira o numero de alunos que irão se inscrever: "))
+inscritos = inaluno(alunos)
