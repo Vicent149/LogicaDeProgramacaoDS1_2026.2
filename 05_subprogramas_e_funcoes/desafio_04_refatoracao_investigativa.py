@@ -14,5 +14,10 @@ SUA MISSÃO:
 # TODO: Desenvolva as funções modulares abaixo:
 
 def precofinal (base,desc,imp):
-    precofinal = base - base * desc + base * imp
+    precofinal = float(base - ((base * 0.1) * desc)) + imp
     return precofinal
+base = float(input("Insira o preço: "))
+desc = float(input("Insira o desconto: "))
+imp = float(input("Insira a taxa de imposto: "))
+
+print("O valor final do produto é ", precofinal(base,desc,imp))
