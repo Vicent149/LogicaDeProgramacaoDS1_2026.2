@@ -1,0 +1,3 @@
+Turma 0 entrou as 13 e saiu as 18
+Turma 1 entrou as 13 e saiu as 18
+Turma 2 entrou as 12 e saiu as 17

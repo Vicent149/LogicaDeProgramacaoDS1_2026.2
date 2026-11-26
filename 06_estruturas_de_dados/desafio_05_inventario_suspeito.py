@@ -16,10 +16,9 @@ SUA MISSÃO:
 lista = []
 
 while True:
-    lista_i = str(input("Insira os itens. Insira (sair) para a parada"))
+    lista_i = str(input("Insira os itens. Insira (sair) para a parada: "))
     if lista_i == str("sair"):
         itens_u = set(lista)
         print(itens_u)
         break
     lista.append(lista_i) 
-
